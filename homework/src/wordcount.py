@@ -28,3 +28,7 @@ def write_count_words(counter):
         for key, value in counter.items():
             # write the key and value to the file
             f.write(f"{key}\t{value}\n")
+
+
+if __name__ == "__main__":
+    main()
