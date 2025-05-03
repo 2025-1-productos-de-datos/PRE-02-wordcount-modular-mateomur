@@ -4,7 +4,7 @@ from ..src.wordcount import main
 
 
 def test_migracion():
-
+    pass
     main()
 
     if not os.path.exists("data/output/results.tsv"):
